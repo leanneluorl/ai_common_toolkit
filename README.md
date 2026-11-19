@@ -4,7 +4,7 @@ A set of small, dependency-light Python clients for working with several AI APIs
 
 It is a portfolio / code-review sample. The goal is to show how I integrate third-party AI services in a way that survives real-world conditions: rate limits, daily quotas, retired models, flaky networks and slow asynchronous jobs.
 
-> License: all rights reserved, view-only (see [LICENSE](LICENSE)).
+> License: [MIT](LICENSE).
 
 ## What is inside
 
