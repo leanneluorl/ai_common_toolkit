@@ -1,0 +1,22 @@
+# Secrets and local config
+.env
+.env.*
+!.env.example
+
+# Runtime output (usage logs, learned limits, model registry snapshots, ledgers)
+_log/
+_bak/
+gemini_models.json
+*_ledger.json
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Editors / tooling
+.claude/
+.vscode/
+.idea/

@@ -1,0 +1,15 @@
+# Core
+python-dotenv>=1.0
+requests>=2.31
+
+# Gemini client (ai_client.py)
+google-generativeai>=0.8
+
+# Trend research helpers (trend_search.py)
+google-genai>=1.0
+google-api-python-client>=2.100
+pytrends>=4.9
+praw>=7.7
+
+# Tests
+pytest>=8.0

@@ -1,0 +1,465 @@
+{
+  "_comment": "Neutral model catalog used by aliyun_vision_client.py. Tiers are heuristic (derived from naming / generation), not vendor-published. total_quota is a configurable per-model usage allowance for the local budget ledger; adjust it to match your own account.",
+  "tier_names": {
+    "flagship": "Flagship",
+    "high": "High",
+    "mid": "Mid",
+    "low": "Low"
+  },
+  "output_type_names": {
+    "image": "image",
+    "video": "video"
+  },
+  "models": [
+    {
+      "name": "wan2.7-image-pro",
+      "series": "Wan",
+      "category": "image-generation/editing",
+      "output_type": "image",
+      "tier": "flagship",
+      "tier_score": 4,
+      "total_quota": 50,
+      "note": "2.7 latest generation, Pro"
+    },
+    {
+      "name": "qwen-image-2.1-pro",
+      "series": "Qwen",
+      "category": "text-to-image",
+      "output_type": "image",
+      "tier": "flagship",
+      "tier_score": 4,
+      "total_quota": 10,
+      "note": "2.1 generation, Pro"
+    },
+    {
+      "name": "qwen-image-3.0",
+      "series": "Qwen",
+      "category": "text-to-image",
+      "output_type": "image",
+      "tier": "flagship",
+      "tier_score": 4,
+      "total_quota": 10,
+      "note": "Latest 3.0 generation, standard"
+    },
+    {
+      "name": "qwen-image-3.0-pro",
+      "series": "Qwen",
+      "category": "text-to-image",
+      "output_type": "image",
+      "tier": "flagship",
+      "tier_score": 4,
+      "total_quota": 10,
+      "note": "Latest 3.0 generation, Pro"
+    },
+    {
+      "name": "wan2.6-image",
+      "series": "Wan",
+      "category": "image-generation/editing",
+      "output_type": "image",
+      "tier": "high",
+      "tier_score": 3,
+      "total_quota": 50,
+      "note": "2.6 generation, standard"
+    },
+    {
+      "name": "wan2.7-image",
+      "series": "Wan",
+      "category": "image-generation/editing",
+      "output_type": "image",
+      "tier": "high",
+      "tier_score": 3,
+      "total_quota": 50,
+      "note": "2.7 latest generation, standard"
+    },
+    {
+      "name": "wan2.6-t2i",
+      "series": "Wan",
+      "category": "text-to-image",
+      "output_type": "image",
+      "tier": "high",
+      "tier_score": 3,
+      "total_quota": 50,
+      "note": "2.6 generation, standard"
+    },
+    {
+      "name": "qwen-image-2.0-pro",
+      "series": "Qwen",
+      "category": "text-to-image",
+      "output_type": "image",
+      "tier": "high",
+      "tier_score": 3,
+      "total_quota": 100,
+      "note": "2.0 generation, Pro"
+    },
+    {
+      "name": "qwen-image-2.0-pro-2026-03-03",
+      "series": "Qwen",
+      "category": "text-to-image",
+      "output_type": "image",
+      "tier": "high",
+      "tier_score": 3,
+      "total_quota": 100,
+      "note": "2.0 Pro snapshot"
+    },
+    {
+      "name": "qwen-image-2.0-pro-2026-04-22",
+      "series": "Qwen",
+      "category": "text-to-image",
+      "output_type": "image",
+      "tier": "high",
+      "tier_score": 3,
+      "total_quota": 100,
+      "note": "2.0 Pro snapshot"
+    },
+    {
+      "name": "qwen-image-2.0-pro-2026-06-22",
+      "series": "Qwen",
+      "category": "text-to-image",
+      "output_type": "image",
+      "tier": "high",
+      "tier_score": 3,
+      "total_quota": 100,
+      "note": "2.0 Pro snapshot"
+    },
+    {
+      "name": "z-image-turbo",
+      "series": "Z-Image",
+      "category": "text-to-image",
+      "output_type": "image",
+      "tier": "mid",
+      "tier_score": 2,
+      "total_quota": 100,
+      "note": "Turbo, speed-optimized lightweight model"
+    },
+    {
+      "name": "wan2.2-t2i-plus",
+      "series": "Wan",
+      "category": "text-to-image",
+      "output_type": "image",
+      "tier": "mid",
+      "tier_score": 2,
+      "total_quota": 100,
+      "note": "2.2 generation, Plus"
+    },
+    {
+      "name": "qwen-mt-image-2.0",
+      "series": "Qwen",
+      "category": "image-translation",
+      "output_type": "image",
+      "tier": "mid",
+      "tier_score": 2,
+      "total_quota": 100,
+      "note": "Dedicated feature (in-image text translation)"
+    },
+    {
+      "name": "qwen-image-2.0",
+      "series": "Qwen",
+      "category": "text-to-image",
+      "output_type": "image",
+      "tier": "mid",
+      "tier_score": 2,
+      "total_quota": 100,
+      "note": "2.0 generation, standard"
+    },
+    {
+      "name": "qwen-image-2.0-2026-03-03",
+      "series": "Qwen",
+      "category": "text-to-image",
+      "output_type": "image",
+      "tier": "mid",
+      "tier_score": 2,
+      "total_quota": 100,
+      "note": "2.0 standard snapshot"
+    },
+    {
+      "name": "qwen-image-2.1-turbo",
+      "series": "Qwen",
+      "category": "text-to-image",
+      "output_type": "image",
+      "tier": "mid",
+      "tier_score": 2,
+      "total_quota": 10,
+      "note": "2.1 generation, Turbo (speed-optimized)"
+    },
+    {
+      "name": "wan2.5-i2i-preview",
+      "series": "Wan",
+      "category": "image-generation/editing",
+      "output_type": "image",
+      "tier": "low",
+      "tier_score": 1,
+      "total_quota": 50,
+      "note": "2.5 preview"
+    },
+    {
+      "name": "wan2.1-t2i-plus",
+      "series": "Wan",
+      "category": "text-to-image",
+      "output_type": "image",
+      "tier": "low",
+      "tier_score": 1,
+      "total_quota": 200,
+      "note": "2.1 older generation, Plus"
+    },
+    {
+      "name": "wan2.1-t2i-turbo",
+      "series": "Wan",
+      "category": "text-to-image",
+      "output_type": "image",
+      "tier": "low",
+      "tier_score": 1,
+      "total_quota": 200,
+      "note": "2.1 older generation, Turbo"
+    },
+    {
+      "name": "wan2.2-t2i-flash",
+      "series": "Wan",
+      "category": "text-to-image",
+      "output_type": "image",
+      "tier": "low",
+      "tier_score": 1,
+      "total_quota": 100,
+      "note": "2.2 generation, Flash (speed-optimized)"
+    },
+    {
+      "name": "wan2.5-t2i-preview",
+      "series": "Wan",
+      "category": "text-to-image",
+      "output_type": "image",
+      "tier": "low",
+      "tier_score": 1,
+      "total_quota": 50,
+      "note": "2.5 preview"
+    },
+    {
+      "name": "wan3.0-video",
+      "series": "Wan",
+      "category": "text-to-video",
+      "output_type": "video",
+      "tier": "flagship",
+      "tier_score": 4,
+      "total_quota": 30,
+      "note": "3.0 latest-generation video model"
+    },
+    {
+      "name": "happyhorse-1.1-r2v",
+      "series": "HappyHorse",
+      "category": "reference-to-video",
+      "output_type": "video",
+      "tier": "high",
+      "tier_score": 3,
+      "total_quota": 10,
+      "note": "1.1"
+    },
+    {
+      "name": "happyhorse-1.1-i2v",
+      "series": "HappyHorse",
+      "category": "image-to-video",
+      "output_type": "video",
+      "tier": "high",
+      "tier_score": 3,
+      "total_quota": 10,
+      "note": "1.1"
+    },
+    {
+      "name": "happyhorse-1.1-t2v",
+      "series": "HappyHorse",
+      "category": "text-to-video",
+      "output_type": "video",
+      "tier": "high",
+      "tier_score": 3,
+      "total_quota": 10,
+      "note": "1.1"
+    },
+    {
+      "name": "wan2.6-r2v",
+      "series": "Wan",
+      "category": "reference-to-video",
+      "output_type": "video",
+      "tier": "high",
+      "tier_score": 3,
+      "total_quota": 50,
+      "note": "2.6 generation, standard"
+    },
+    {
+      "name": "wan2.6-i2v",
+      "series": "Wan",
+      "category": "image-to-video",
+      "output_type": "video",
+      "tier": "high",
+      "tier_score": 3,
+      "total_quota": 50,
+      "note": "2.6 generation, standard"
+    },
+    {
+      "name": "wan2.6-t2v",
+      "series": "Wan",
+      "category": "text-to-video",
+      "output_type": "video",
+      "tier": "high",
+      "tier_score": 3,
+      "total_quota": 50,
+      "note": "2.6 generation, standard"
+    },
+    {
+      "name": "happyhorse-1.0-video-edit",
+      "series": "HappyHorse",
+      "category": "video-editing/motion-transfer",
+      "output_type": "video",
+      "tier": "mid",
+      "tier_score": 2,
+      "total_quota": 10,
+      "note": "1.0 (video editing)"
+    },
+    {
+      "name": "wan2.6-r2v-flash",
+      "series": "Wan",
+      "category": "reference-to-video",
+      "output_type": "video",
+      "tier": "mid",
+      "tier_score": 2,
+      "total_quota": 50,
+      "note": "2.6 Flash (speed-optimized)"
+    },
+    {
+      "name": "wan2.2-i2v-plus",
+      "series": "Wan",
+      "category": "image-to-video",
+      "output_type": "video",
+      "tier": "mid",
+      "tier_score": 2,
+      "total_quota": 50,
+      "note": "2.2 generation, Plus"
+    },
+    {
+      "name": "wan2.6-i2v-flash",
+      "series": "Wan",
+      "category": "image-to-video",
+      "output_type": "video",
+      "tier": "mid",
+      "tier_score": 2,
+      "total_quota": 50,
+      "note": "2.6 Flash (speed-optimized)"
+    },
+    {
+      "name": "wan2.2-animate-mix",
+      "series": "Wan",
+      "category": "video-editing/motion-transfer",
+      "output_type": "video",
+      "tier": "mid",
+      "tier_score": 2,
+      "total_quota": 50,
+      "note": "2.2 dedicated feature (character swap)"
+    },
+    {
+      "name": "wan2.2-animate-move",
+      "series": "Wan",
+      "category": "video-editing/motion-transfer",
+      "output_type": "video",
+      "tier": "mid",
+      "tier_score": 2,
+      "total_quota": 50,
+      "note": "2.2 dedicated feature (motion transfer)"
+    },
+    {
+      "name": "wan2.2-t2v-plus",
+      "series": "Wan",
+      "category": "text-to-video",
+      "output_type": "video",
+      "tier": "mid",
+      "tier_score": 2,
+      "total_quota": 50,
+      "note": "2.2 generation, Plus"
+    },
+    {
+      "name": "wan2.1-i2v-plus",
+      "series": "Wan",
+      "category": "image-to-video",
+      "output_type": "video",
+      "tier": "low",
+      "tier_score": 1,
+      "total_quota": 200,
+      "note": "2.1 older generation, Plus"
+    },
+    {
+      "name": "wan2.1-i2v-turbo",
+      "series": "Wan",
+      "category": "image-to-video",
+      "output_type": "video",
+      "tier": "low",
+      "tier_score": 1,
+      "total_quota": 200,
+      "note": "2.1 older generation, Turbo"
+    },
+    {
+      "name": "wan2.2-i2v-flash",
+      "series": "Wan",
+      "category": "image-to-video",
+      "output_type": "video",
+      "tier": "low",
+      "tier_score": 1,
+      "total_quota": 50,
+      "note": "2.2 Flash (speed-optimized)"
+    },
+    {
+      "name": "wan2.5-i2v-preview",
+      "series": "Wan",
+      "category": "image-to-video",
+      "output_type": "video",
+      "tier": "low",
+      "tier_score": 1,
+      "total_quota": 50,
+      "note": "2.5 preview"
+    },
+    {
+      "name": "wan2.1-vace-plus",
+      "series": "Wan",
+      "category": "video-editing/motion-transfer",
+      "output_type": "video",
+      "tier": "low",
+      "tier_score": 1,
+      "total_quota": 50,
+      "note": "2.1 older generation (video editing)"
+    },
+    {
+      "name": "wan2.1-t2v-plus",
+      "series": "Wan",
+      "category": "text-to-video",
+      "output_type": "video",
+      "tier": "low",
+      "tier_score": 1,
+      "total_quota": 200,
+      "note": "2.1 older generation, Plus"
+    },
+    {
+      "name": "wan2.1-t2v-turbo",
+      "series": "Wan",
+      "category": "text-to-video",
+      "output_type": "video",
+      "tier": "low",
+      "tier_score": 1,
+      "total_quota": 200,
+      "note": "2.1 older generation, Turbo"
+    },
+    {
+      "name": "wan2.5-t2v-preview",
+      "series": "Wan",
+      "category": "text-to-video",
+      "output_type": "video",
+      "tier": "low",
+      "tier_score": 1,
+      "total_quota": 50,
+      "note": "2.5 preview"
+    },
+    {
+      "name": "wan2.1-kf2v-plus",
+      "series": "Wan",
+      "category": "first-last-frame-to-video",
+      "output_type": "video",
+      "tier": "low",
+      "tier_score": 1,
+      "total_quota": 200,
+      "note": "2.1 older generation, Plus"
+    }
+  ]
+}
